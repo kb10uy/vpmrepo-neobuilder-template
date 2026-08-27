@@ -57,7 +57,7 @@ hashed. Losing that cache costs time and nothing else.
 ## Local preview
 
 ```sh
-neobuilder build --source source.toml static/index.json data/listing.json
+vpmrepo-neobuilder build --source source.toml static/index.json data/listing.json
 hugo server
 ```
 

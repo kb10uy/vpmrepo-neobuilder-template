@@ -1,0 +1,26 @@
+[listing]
+id     = "com.example.vrc-repository"
+name   = "Example VPM Repository"
+url    = "https://example.github.io/vrc-repository/index.json"
+author = "example"
+
+[defaults]
+asset         = "*.zip"
+manifest-from = "auto"
+prerelease    = "always"
+project-type  = "any"
+group         = "packages"
+
+[[group]]
+id          = "packages"
+name        = "Packages"
+description = "Packages published by this repository."
+
+[[group]]
+id          = "dependencies"
+name        = "Dependencies"
+description = "Redistributed for dependency resolution."
+
+[[github]]
+repo         = "example/awesome-tool"
+project-type = "avatar"
